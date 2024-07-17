@@ -74,6 +74,8 @@ len(Recommendation_Score)
 Sorted_similar_Movies = sorted(Recommendation_Score, key = lambda x:x[1], reverse = True)
 print(Sorted_similar_Movies)
 
+"""Top 30 Movie recommendations"""
+
 print('Top 30 Movies suggested for you : \n')
 i = 1
 for movie in Sorted_similar_Movies:
